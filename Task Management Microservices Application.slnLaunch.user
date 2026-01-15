@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "TaskManagement",
+    "Projects": [
+      {
+        "Path": "TaskService\\TaskService.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "ActivityService\\ActivityService.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "UsersService\\UsersService.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  }
+]
